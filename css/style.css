@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*{
+    font-family: 'PT Serif', serif;
+ }
+.bannerBgImage{
+    height: 100vh;
+    background: url("/Images/display.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: antiquewhite;
+}
+
+.bannerTitle{
+    font-size: 5rem;
+}
+
+.bannerDesc{
+    font-size: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card{
+    cursor:pointer;
+}
+
+.card:hover{
+    border: 2px solid black;
+    background-color:gray
+}
+
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover{
+    border: 2px solid black;
+}
+
+
+.new{
+    background-image: url("/Images/full.jpg");
+    background-size: cover;
+    position: relative;
+}
+.navbar{
+    background-color: crimson;
+}
+.container{
+    color:solid black;
+}
+.mt-4 text-center px-1{
+    color: antiquewhite;
+}
+
+.footer{
+    font-family: fantasy;
+    font-size: medium;
+    color:antiquewhite;
+}
+  
+  .para{
+    font-size: medium;
+  }
